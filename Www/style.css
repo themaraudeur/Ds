@@ -1,0 +1,9 @@
+body{margin:0;background:#000;font-family:sans-serif;}
+#top{height:40%;background:#fff;display:flex;justify-content:center;align-items:center;}
+#banner{width:260px;height:120px;background:#eee;text-align:center;line-height:120px;font-size:12px;}
+#bottom{height:60%;display:flex;flex-direction:column;align-items:center;}
+#carousel{display:flex;gap:20px;overflow-x:auto;padding:20px;}
+.slot{width:80px;height:80px;background:#fff;display:flex;align-items:center;justify-content:center;cursor:pointer;}
+body.dsi{background:#f2f2f2;}
+body.3ds{background:#111;}
+body.3ds .slot{background:#222;color:white;border-radius:20px;}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DS Console</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="dsi">
+<div id="ui">
+  <div id="top"><div id="banner">CONFIG. REQUISE</div></div>
+  <div id="bottom">
+    <div id="title">AUCUN JEU</div>
+    <div id="carousel"></div>
+    <div id="menu">
+      <button onclick="setTheme('dsi')">DSi</button>
+      <button onclick="setTheme('3ds')">3DS</button>
+      <button onclick="pickFolder('roms')">ROMS</button>
+      <button onclick="pickFolder('saves')">SAVES</button>
+      <button onclick="pickFolder('images')">IMAGES</button>
+    </div>
+  </div>
+</div>
+<div id="emu"><div id="game"></div></div>
+<script src="app.js"></script>
+</body>
+</html>
