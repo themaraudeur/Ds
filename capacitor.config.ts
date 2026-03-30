@@ -1,0 +1,1 @@
+const config={appId:'com.ds.console',appName:'DS Console',webDir:'www'}; export default config;
